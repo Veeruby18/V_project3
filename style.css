@@ -1,4 +1,20 @@
+.brandname {
+  margin-left: 25px;
+  font-family: Bodoni Moda;
+  font-style: italic;
+  font-weight: 600;
+}
 
+.navy {
+  padding-left: 38rem;
+  padding-top: 3px;
+}
+
+.navy a {
+  margin: 0 30px;
+  padding-right: 70px;
+  font-family: Bodoni Moda;
+}
 
 main {
   width: 100%;
@@ -43,19 +59,6 @@ main {
   padding-left: 300px;
 }
 
-.brandname {
-  margin-left: 20px;
-}
-
-.navy {
-  padding-left: 40rem;
-}
-
-.navy a {
-  margin: 0 30px;
-  padding-right: 70px;
-}
-
 main .maindiv {
   justify-self: center;
   padding-top: 100px;
@@ -67,7 +70,8 @@ menu h3 {
   font-size: 30px;
   font-weight: 700;
   color: black1;
-  padding-top: 70px;
+  padding: 70px 0 50px 0;
+
   text-align: center;
   text-decoration-line: underline;
   text-decoration-style: double;
@@ -76,18 +80,15 @@ menu h3 {
 .menubar {
   display: flex;
   justify-content: space-around;
-  background-color: brown;
 }
 
-
-/* .card {
+.card {
   margin: 5px !important;
-} */
+}
 
 .card-img-top {
   height: 250px;
   width: 300px;
-  /* padding: 0 0 0 2px; */
 
   margin: 0;
   padding: 0;
@@ -118,11 +119,13 @@ menu h3 {
   font-weight: 500;
   text-decoration: none;
   color: palevioletred;
+  margin-top: 500px;
 }
 
 section {
   padding: 70px 0px 0 0px;
   justify-content: space-between;
+  display: flex;
 }
 
 img {
@@ -190,45 +193,57 @@ img {
 }
 
 footer {
-    background-color: rgb(75, 55, 55);
-    /* margin: 0 -8px -40px -8px; */
-    height: 220px;
-  }
-  
-  footer ul {
-    display: flex;    
-    align-items: center;
-    /* padding-left: 210px; */
-
-  }
-  
-  footer ul li {
-    padding: 5px 0;
-    list-style: none;
-    padding: 50px 100px;
-    
-  }
-  
-  footer ul li a {
-    text-decoration: none;
-    color: white;
-    font-family: roboto;
-    font-weight: 400;
-    font-size: 17px;
-  } 
-
-   .fimg img{
-    width: 30px;
-    height: 30px;
-    padding: 0;
-   }
-
-   .fimg {
-        margin-top: -20px;
-        position: absolute;
-        left: 28rem;
-    }
-.fimg a{
-    padding-left: 4rem;
+  background-color: rgb(75, 55, 55);
+  height: 150px;
 }
-   
+
+footer ul {
+  display: flex;
+  align-items: center;
+  padding-left: 210px;
+}
+
+footer ul li {
+  padding: 5px 0;
+  list-style: none;
+  padding: 50px 100px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.fimg img {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+}
+
+.fimg {
+  margin-top: -40px;
+  position: absolute;
+  left: 28rem;
+}
+.fimg a {
+  padding-left: 4rem;
+}
+.scopy {
+  background-color: black;
+}
+.copy p {
+  font-family: roboto;
+  font-size: 15px;
+  text-align: center;
+  color: beige;
+}
+
+.copy {
+  left: 34rem;
+  background-color: rgb(31, 27, 27);
+  width: 100%;
+  margin-bottom: -30px;
+  }
